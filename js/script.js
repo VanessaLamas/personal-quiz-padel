@@ -176,7 +176,7 @@ class gameMain {
         <img class="image-item"
         src="https://blackcrownkw.com/cdn/shop/products/Black-Crown-racket-Piton-11-1.jpg?v=1675937668&width=990">
         </a>
-        <h5 class="grid-item-title">Piton 11 <br>Padel Racket</h5>
+        <h5 class="grid-item-title">Piton 11 Padel Racket</h5>
         <h6 class="grid-item-description">Power: 55%<br>Control: 45%</h6>
         </div>
         </div>
