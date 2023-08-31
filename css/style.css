@@ -75,11 +75,11 @@ button:hover {
 .options {
   display: flex;
   flex-direction: column;
-  margin: 0% 5% 5% 15%;
+  margin: 5% 5% 10% 15%;
 }
 
 .option-container {
-  margin-top: 3%;
+  margin-top: 10%;
 }
 
 .continue-button {
@@ -149,3 +149,14 @@ display: flex;
 justify-content: center;
 } 
 
+@media screen and (min-width: 650px) {
+
+  .options {
+    margin: 0% 5% 5% 15%;
+  }
+
+  .option-container {
+    margin-top: 3%;
+  }
+
+}
