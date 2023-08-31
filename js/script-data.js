@@ -1,62 +1,36 @@
 const gameStory = [
     {
-        title: `Which factor do you prioritize the most in a padel racket?`,
+        title: `What percentage of importance do you place on having control of the racket to match your playing style?`,
         options: [
             {
-                option: `Power and Speed`,
-                keyword: 'power-and-speed',
+                option: `0% to 60%`,
+                keyword: '6',
             },
             {
-                option: `Control and Precision`,
-                keyword: 'control-and-precision',
+                option: `61% to 90%`,
+                keyword: '9',
             },
             {
-                option: `Balance of Power and Control`,
-                keyword: 'power-and-control',
-            }
-            ,
-            {
-                option: `Comfort and Feel`,
-                keyword: 'comfort-and-feel',
+                option: `91% to 100%`,
+                keyword: '10',
             }
         ]
     },
     {
-        title: `What's your preferred playing style?`,
+        title: `How important is feeling power in your paddle swings to you?`,
         options: [
             {
-                option: `Aggressive, I like to dominate the game.`,
-                keyword: 'agressive',
+                option: `0% to 50%`,
+                keyword: '5',
             },
             {
-                option: `Defensive, I focus on control and positioning.`,
-                keyword: 'defensive',
-            },
-            {
-                option: `Versatile, I adapt my style as needed.`,
-                keyword: 'versatile',
+                option: `51% to 100%`,
+                keyword: '10',
             }
         ]
     },
     {
-        title: `How would you describe your level of experience in playing padel?`,
-        options: [
-            {
-                option: `Beginner`,
-                keyword: 'beginner',
-            },
-            {
-                option: `Intermediate`,
-                keyword: 'intermediate',
-            },
-            {
-                option: `Advanced`,
-                keyword: 'advanced',
-            }
-        ]
-    },
-    {
-        title: `Do you have any specific preference for the racket's shape?`,
+        title: `When it comes to paddle racket shape, what's your go-to?`,
         options: [
             {
                 option: `Round-shaped`,
@@ -71,8 +45,8 @@ const gameStory = [
                 keyword: 'tear',
             },
             {
-                option: `Any shape is fine`,
-                keyword: 'any',
+                option: `Circle shape`,
+                keyword: 'circle',
             }
         ]
     },
