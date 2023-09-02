@@ -156,6 +156,11 @@ footer {
   justify-content: center;
 }
 
+
+.container input[type="radio"]:checked + span {
+  color: #015cc8;
+}
+
 @media screen and (min-width: 450px) {
 
   h2 {
